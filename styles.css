@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 90%;
+    width: 300px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: inherit;
+}
+
+#attempts {
+    font-size: 16px;
+    color: #777;
+}
+
+#winners-container {
+    margin-top: 20px;
+}
+
+#winners-dashboard {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+#winners-dashboard li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 600px) {
+    .container {
+        max-width: 400px;
+    }
+}
